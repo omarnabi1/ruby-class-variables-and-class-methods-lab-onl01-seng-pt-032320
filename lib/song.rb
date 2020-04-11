@@ -1,11 +1,11 @@
 class Song 
-  @@count_song
+  @@count_song = 0 
   
   def initialize.count
-    @count_song = count_song
-    
+    @@count_song += 1 
   end
-  def 
+    
+  def selt.count  
     @count_song
   end
 end

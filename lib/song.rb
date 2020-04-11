@@ -39,5 +39,5 @@ class Song
       end
     end
   genre_count    #why is the class method being called in our code?
-end
+  end
 end

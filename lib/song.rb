@@ -30,8 +30,8 @@ class Song
     genre_count = {}
     @@genres.each do |genre|
       if genre_count[genre] #if the genre is already in the hash
-        genre_count[genre] += 1
-      else #if it's a new genre
+        genre_count[genre] += 1 #if the genre has already been recorded then dont create a new genre add 1 to the previously added genre_count
+      else 
         genre_count[genre] = 1
       end
     end

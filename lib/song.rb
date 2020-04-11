@@ -13,6 +13,8 @@ class Song
     @@artist << artist 
   end
   
+  
+  
   def self.count
     @@count 
   end
@@ -24,6 +26,8 @@ class Song
   def self.artist
     @@artist.uniq 
   end
+  
+  
   
   def. self.genre_count
   genre = { }

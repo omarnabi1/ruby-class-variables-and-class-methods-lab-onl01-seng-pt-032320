@@ -31,7 +31,8 @@ class Song
     
     def self.artist
       artist = {}
-      
+      @@artist.each do |artist|
+        k
     
 
     

@@ -10,6 +10,7 @@ class Song
     @@count
   end
   
-  def ii
+  def genres 
+    
 
     

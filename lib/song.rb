@@ -3,6 +3,7 @@ class Song
   
   def initialize.count
     @count_song = count_song
+    
   end
   def 
     @count_song

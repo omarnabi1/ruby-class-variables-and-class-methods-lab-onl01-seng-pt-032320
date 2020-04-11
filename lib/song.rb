@@ -36,8 +36,8 @@ class Song
       genre_count [genre] += 1 #if the genre has already been recorded then dont create a new genre add 1 to the previously added genre_count
     else #if it is a new genre then create a new genre count? (confused here)
       genre_count [genre] = 1 
+      end
     end
-  end
   genre_count    #why is the class method being called in our code?
 end
 end

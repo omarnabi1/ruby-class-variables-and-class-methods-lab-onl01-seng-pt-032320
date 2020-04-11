@@ -37,3 +37,16 @@ class Song
     end
     genre_count #why is the class method being called in our code?
   end
+
+def self.artist_count
+  artist_count = {}
+  @@artist.each do |artist|
+    if artist_count [artist]
+        artist_count [artist] =+ 1 
+      else 
+        artis_count [artist] = 1 
+      end
+    end
+    artis_count
+  end
+end
